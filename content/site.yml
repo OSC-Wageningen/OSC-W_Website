@@ -5,8 +5,8 @@ tagline: Open Science Community Wageningen
 domain: openscience-wageningen.nl
 url: https://openscience-wageningen.nl
 email: osc-wageningen@wur.nl
-logo: /wp-content/uploads/2024/12/OSC_logo_small.png
-favicon: /wp-content/uploads/2024/12/OSC-W-Favicon-300x300.png
+logo: /images/site/logo.png
+favicon: /images/site/favicon.png
 
 nav:
   - title: Home

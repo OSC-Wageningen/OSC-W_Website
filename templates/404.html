@@ -4,4 +4,9 @@
   <h1>Page not found</h1>
   <p>This page doesn't exist (anymore). Try the <a href="/">home page</a> or the <a href="/events/">events</a>.</p>
 </div>
+<script>
+  // Forward old WordPress file addresses (content/data/moved_files.yml) to where the file is now.
+  var moved = {{ data.moved_files | tojson }};
+  if (moved[location.pathname]) location.replace(moved[location.pathname]);
+</script>
 {% endblock %}

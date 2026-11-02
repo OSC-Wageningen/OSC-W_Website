@@ -3,7 +3,7 @@ title: "OSC-W | The Open Lab: Hacking and Building Laboratory Instruments for Be
 date: 2025-06-25
 start: "12:30"
 end: "13:30"
-image: /wp-content/uploads/2025/07/osc-event-2-banner-intranet-news.png
+image: /images/events/open-lab.png
 summary: >
   Join us for lunch to explore the potential of open hardware and software in
   scientific research at WUR.

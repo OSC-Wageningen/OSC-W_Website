@@ -3,7 +3,7 @@ title: "OSC-W | How Not to Fool Yourself in Science: Ensuring Reliability in Res
 date: 2025-03-04
 start: "12:30"
 end: "13:30"
-image: /wp-content/uploads/2025/04/osc-event-1-new-date-intranet-agenda.png
+image: /images/events/how-not-to-fool-yourself.png
 summary: >
   How do we, as scientists, avoid common pitfalls that lead to unreliable results?
   A discussion on how WUR science groups uphold the standards of replicability.

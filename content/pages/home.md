@@ -2,11 +2,11 @@
 title: Open Science Community Wageningen
 permalink: /
 template: home.html
-hero_image: /wp-content/uploads/2024/12/towerOSC-300x271.png
+hero_image: /images/site/tower.png
 ---
 
 <section class="split" markdown="1">
-<img src="/wp-content/uploads/2024/12/pyramidOSC-300x300.png" alt="People building a pyramid together">
+<img src="/images/site/pyramid.png" alt="People building a pyramid together">
 <div markdown="1">
 
 ## Bottom-Up Community
@@ -21,7 +21,7 @@ OSC-W is part of the International Network of Open Science & Scholarship Communi
 </section>
 
 <section class="split reverse" markdown="1">
-<img src="/wp-content/uploads/2024/12/joinusOSC-e1747824964409-300x300.png" alt="People joining hands">
+<img src="/images/site/join-us.png" alt="People joining hands">
 <div markdown="1">
 
 ## Who can join OSC-W?

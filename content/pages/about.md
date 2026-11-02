@@ -6,7 +6,7 @@ template: about.html
 
 Open Science Communities (OSC), like OSC-W, are independent, bottom-up local communities made up of members of various scholarly disciplines and career stages. OSC-W is proud to be part of the international network of local Open Science & Open Scholarship communities ([INOSC](https://osc-international.com/)) and part of [OSC-NL](https://osc-international.com/open-science-community-the-netherlands/), the Dutch OSC network.
 
-![Map of Open Science Communities in the Netherlands](/wp-content/uploads/2024/12/OSCNL-1200x832-1-1024x710.png)
+![Map of Open Science Communities in the Netherlands](/images/site/osc-nl-map.png)
 
 ## Our Vision
 

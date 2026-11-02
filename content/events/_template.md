@@ -9,7 +9,7 @@ start: "12:30"            # optional, 24-hour clock
 end: "13:30"              # optional
 location: Forum B0214     # optional
 register: https://forms.cloud.microsoft/e/XXXXXXX   # optional registration link
-image: /wp-content/uploads/2027/01/banner.jpg        # optional banner image
+image: /images/events/banner.jpg                     # optional banner image, put it in static/images/events/
 summary: >
   One or two sentences shown in the event list and calendar feed.
 ---

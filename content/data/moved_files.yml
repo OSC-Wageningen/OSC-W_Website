@@ -1,0 +1,38 @@
+# Old WordPress addresses of files that have moved. The 404 page forwards
+# visitors from an old address (e.g. a newsletter link in an old email) to the new one.
+# Nothing to change here when adding new files.
+
+/wp-content/uploads/2024/12/OSC_logo_small.png: /images/site/logo.png
+/wp-content/uploads/2024/12/OSC-W-Favicon-300x300.png: /images/site/favicon.png
+/wp-content/uploads/2024/12/towerOSC-300x271.png: /images/site/tower.png
+/wp-content/uploads/2024/12/pyramidOSC-300x300.png: /images/site/pyramid.png
+/wp-content/uploads/2024/12/joinusOSC-e1747824964409-300x300.png: /images/site/join-us.png
+/wp-content/uploads/2024/12/OSCNL-1200x832-1-1024x710.png: /images/site/osc-nl-map.png
+/wp-content/uploads/2025/04/osc-event-1-new-date-intranet-agenda.png: /images/events/how-not-to-fool-yourself.png
+/wp-content/uploads/2025/07/osc-event-2-banner-intranet-news.png: /images/events/open-lab.png
+/wp-content/uploads/2025/11/OS-day-1693.png: /images/events/wur-open-science-day.png
+/wp-content/uploads/2026/06/OSC-W-NLRN-event-june30-1.jpg: /images/events/reproducible-research.jpg
+/wp-content/uploads/2025/05/Harm-Veling-300x300.jpg: /images/team/harm-veling.jpg
+/wp-content/uploads/2025/05/ben-300x300.jpg: /images/team/ben-excell.jpg
+/wp-content/uploads/2026/06/BenA-300x300.jpg: /images/team/ben-auxier.jpg
+/wp-content/uploads/2025/05/vincent-300x300.jpg: /images/team/vincent-de-boer.jpg
+/wp-content/uploads/2025/05/1720080560584-300x300.jpg: /images/team/marijke-ten-brinke.jpg
+/wp-content/uploads/2025/05/Ana-294x300.png: /images/team/ana-coicu.png
+/wp-content/uploads/2025/05/Julia-Hoehler-300x300.jpg: /images/team/julia-hoehler.jpg
+/wp-content/uploads/2025/05/Chantal-300x300.jpg: /images/team/chantal-hukkelhoven.jpg
+/wp-content/uploads/2026/06/EstherK.jpg: /images/team/esther-kok.jpg
+/wp-content/uploads/2025/05/jose2.jpg: /images/team/jose-lozano.jpg
+/wp-content/uploads/2025/05/1742023634600-300x300.jpg: /images/team/edoardo-saccenti.jpg
+/wp-content/uploads/2025/05/1549380403569-1-300x300.jpg: /images/team/vittorio-saggiomo.jpg
+/wp-content/uploads/2025/05/1729828783320-300x300.jpg: /images/team/mark-sterken.jpg
+/wp-content/uploads/2026/06/NazwaT.jpg: /images/team/nazwa-tahsin.jpg
+/wp-content/uploads/2026/06/OSC-W-Newsletter-May-2026.pdf: /newsletters/osc-w-newsletter-2026-05.pdf
+/wp-content/uploads/2026/03/OSC-W-Newsletter-Early-April-2026.pdf: /newsletters/osc-w-newsletter-2026-04.pdf
+/wp-content/uploads/2026/03/OSC-W-Newsletter-March-2026.pdf: /newsletters/osc-w-newsletter-2026-03.pdf
+/wp-content/uploads/2026/02/OSC-W-Newsletter-November-2025.pdf: /newsletters/osc-w-newsletter-2025-11.pdf
+/wp-content/uploads/2025/09/OSC-W-Newsletter-06-September-2025.pdf: /newsletters/osc-w-newsletter-2025-09.pdf
+/wp-content/uploads/2025/07/OSC-W-Newsletter-July-2025.pdf: /newsletters/osc-w-newsletter-2025-07.pdf
+/wp-content/uploads/2025/07/OSC-W-Newsletter-April-2025.pdf: /newsletters/osc-w-newsletter-2025-04.pdf
+/wp-content/uploads/2025/07/OSC-W-Newsletter-January-2025.pdf: /newsletters/osc-w-newsletter-2025-01.pdf
+/wp-content/uploads/2025/07/OSC-W-Newsletter-December-2024.pdf: /newsletters/osc-w-newsletter-2024-12.pdf
+/wp-content/uploads/2025/07/OSC-W-Newsletter-November-2024.pdf: /newsletters/osc-w-newsletter-2024-11.pdf

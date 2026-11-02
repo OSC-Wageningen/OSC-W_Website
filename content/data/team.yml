@@ -1,74 +1,74 @@
 # Team members shown on the About page, in this order.
-# role is optional (e.g. Chair). photo paths point into static/wp-content/uploads/.
+# role is optional (e.g. Chair). Put photos in static/images/team/ and point photo: to /images/team/<name>.jpg.
 
 - name: Harm Veling
   position: Professor
   group: Consumption & Healthy Lifestyles (WUR)
   role: Chair
-  photo: /wp-content/uploads/2025/05/Harm-Veling-300x300.jpg
+  photo: /images/team/harm-veling.jpg
 
 - name: Ben Excell
   position: Community Support
   group: Open Science & Education (WUR)
   role: Community Manager
-  photo: /wp-content/uploads/2025/05/ben-300x300.jpg
+  photo: /images/team/ben-excell.jpg
 
 - name: Ben Auxier
   position: Assistant Professor
   group: Genetics (WUR)
-  photo: /wp-content/uploads/2026/06/BenA-300x300.jpg
+  photo: /images/team/ben-auxier.jpg
 
 - name: Vincent de Boer
   position: Assistant Professor
   group: Human and Animal Physiology (WUR)
-  photo: /wp-content/uploads/2025/05/vincent-300x300.jpg
+  photo: /images/team/vincent-de-boer.jpg
 
 - name: Marijke ten Brinke
   position: Information Specialist
   group: NIOO-KNAW
-  photo: /wp-content/uploads/2025/05/1720080560584-300x300.jpg
+  photo: /images/team/marijke-ten-brinke.jpg
 
 - name: Ana Coicu
   position: PhD Candidate
   group: Consumption & Healthy Lifestyles (WUR)
-  photo: /wp-content/uploads/2025/05/Ana-294x300.png
+  photo: /images/team/ana-coicu.png
 
 - name: Julia Höhler
   position: Associate Professor
   group: Business Economics (WUR)
-  photo: /wp-content/uploads/2025/05/Julia-Hoehler-300x300.jpg
+  photo: /images/team/julia-hoehler.jpg
 
 - name: Chantal Hukkelhoven
   position: Specialist Open Access
   group: WUR Library
-  photo: /wp-content/uploads/2025/05/Chantal-300x300.jpg
+  photo: /images/team/chantal-hukkelhoven.jpg
 
 - name: Esther Kok
   position: Researcher / PhD Candidate
   group: Global Nutrition (WUR)
-  photo: /wp-content/uploads/2026/06/EstherK.jpg
+  photo: /images/team/esther-kok.jpg
 
 - name: Jose Lozano
   position: Assistant Professor
   group: Nematology (WUR)
-  photo: /wp-content/uploads/2025/05/jose2.jpg
+  photo: /images/team/jose-lozano.jpg
 
 - name: Edoardo Saccenti
   position: Associate Professor
   group: Systems & Synthetic Biology (WUR)
-  photo: /wp-content/uploads/2025/05/1742023634600-300x300.jpg
+  photo: /images/team/edoardo-saccenti.jpg
 
 - name: Vittorio Saggiomo
   position: Assistant Professor
   group: Bio Nano Technology (WUR)
-  photo: /wp-content/uploads/2025/05/1549380403569-1-300x300.jpg
+  photo: /images/team/vittorio-saggiomo.jpg
 
 - name: Mark Sterken
   position: Assistant Professor
   group: Nematology (WUR)
-  photo: /wp-content/uploads/2025/05/1729828783320-300x300.jpg
+  photo: /images/team/mark-sterken.jpg
 
 - name: Nazwa Tahsin
   position: EngD Candidate
   group: Hydrology & Environmental Hydraulics (WUR)
-  photo: /wp-content/uploads/2026/06/NazwaT.jpg
+  photo: /images/team/nazwa-tahsin.jpg

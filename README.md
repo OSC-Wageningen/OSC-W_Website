@@ -19,7 +19,10 @@ content/
 static/
   css/style.css             colours, fonts, layout
   fonts/                    web fonts, served from this site
-  wp-content/uploads/       images and PDFs (copied from the old WordPress site)
+  images/site/              logo, favicon and page illustrations
+  images/team/              team photos, named after the person
+  images/events/            event banners
+  newsletters/              newsletter PDFs, named osc-w-newsletter-YYYY-MM.pdf
 templates/                  HTML layout of each page type (rarely needs changing)
 build.py                    the build script
 requirements.txt            the three Python packages the build uses, with exact versions
@@ -42,13 +45,13 @@ GitHub switches off the nightly rebuild if nothing in the repository has changed
 
 ### Add a newsletter
 
-1. Upload the PDF to `static/wp-content/uploads/` (any subfolder is fine, e.g. `2026/11/`). On GitHub: open the folder, "Add file" then "Upload files".
+1. Upload the PDF to `static/newsletters/`, named like `osc-w-newsletter-2026-11.pdf`. On GitHub: open the folder, "Add file" then "Upload files".
 2. Add an entry at the top of `content/data/newsletters.yml`:
 
    ```yaml
    - number: 11
      title: November 2026
-     file: /wp-content/uploads/2026/11/OSC-W-Newsletter-November-2026.pdf
+     file: /newsletters/osc-w-newsletter-2026-11.pdf
    ```
 
 ### Update funding calls
@@ -57,7 +60,7 @@ Edit `content/data/funding.yml`. Each call has a `name`, `description`, optional
 
 ### Update the team
 
-Edit `content/data/team.yml`. Upload the photo to `static/wp-content/uploads/` first and point `photo:` to it. Square photos look best.
+Edit `content/data/team.yml`. Upload the photo to `static/images/team/` first (e.g. `jane-doe.jpg`) and point `photo:` to it (`/images/team/jane-doe.jpg`). Square photos look best.
 
 ### Edit page text
 
@@ -100,5 +103,5 @@ Then open <http://localhost:8000>. Press Ctrl+C to stop. Run it again after edit
 ## Extras
 
 - **Calendar feed:** `/events.ics` lists all events. People can subscribe to it in Outlook, Google Calendar or Apple Calendar, and new events show up automatically.
-- **Old links keep working:** the old WordPress addresses for the events page and the March 2025 event redirect to their new addresses. Add more with `aliases:` in a page's or event's front matter.
+- **Old links keep working:** the old WordPress addresses for the events page and the March 2025 event redirect to their new addresses. Add more with `aliases:` in a page's or event's front matter. Old WordPress file addresses (`/wp-content/uploads/...`, e.g. newsletter PDFs linked from old emails) are forwarded to the files' new addresses by the 404 page, using the list in `content/data/moved_files.yml`.
 - **Newsletter signup** stays on Microsoft Forms. The link is in `content/pages/join-us.md` (`signup_url`).

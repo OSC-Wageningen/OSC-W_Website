@@ -4,7 +4,7 @@ date: 2026-06-30
 start: "12:30"
 end: "13:30"
 location: Forum B0214 (lunch provided)
-image: /wp-content/uploads/2026/06/OSC-W-NLRN-event-june30-1.jpg
+image: /images/events/reproducible-research.jpg
 register: https://forms.cloud.microsoft/e/uMAKd0zN6t
 summary: >
   Join us for lunch to explore what it really means for research to be reproducible

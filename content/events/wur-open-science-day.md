@@ -4,7 +4,7 @@ date: 2026-01-22
 start: "13:00"
 end: "17:30"
 location: Omnia
-image: /wp-content/uploads/2025/11/OS-day-1693.png
+image: /images/events/wur-open-science-day.png
 register: https://forms.cloud.microsoft/e/4SNSEiU0jE
 summary: >
   Join us for an afternoon of inspiration and discussion, and discover how open science
