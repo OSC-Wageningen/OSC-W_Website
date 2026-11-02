@@ -1,6 +1,9 @@
 # Newsletter archive on the Join Us page. Shown newest first (sorted by number).
 # Put the PDF in static/newsletters/ (e.g. osc-w-newsletter-2026-11.pdf) and add an entry.
 
+- number: 11
+  title: November 2026
+  file /newsletters/osc-w-newsletter-2026-11.pdf
 - number: 10
   title: May 2026
   file: /newsletters/osc-w-newsletter-2026-05.pdf
