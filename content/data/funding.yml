@@ -20,15 +20,6 @@
   deadline: Closes 23 February 2027
   link: https://www.openscience.nl/en/calls/fair-research-outputs
 
-- name: OSNL Open Science Infrastructure
-  description: >
-    This Call for proposals focuses on the improvement of existing digital
-    infrastructures that support open science practices. It covers the entire spectrum
-    of open science and is deliberately broad in scope to be inclusive of the
-    community's diverse digital infrastructure needs.
-  deadline: Letter of intent required before 3 November 2026
-  link: https://www.openscience.nl/en/calls/open-science-infrastructure
-
 - name: OSNL Mobility and Development Programme
   description: >
     Through this programme, open science professionals can apply for funding for a
@@ -43,7 +34,18 @@
     Project leaders or co-applicants of awarded NWO research projects can apply for
     funding of the costs of Open Access publishing of academic books that result from
     NWO funding.
+  deadline: Ongoing call
   link: https://www.nwo.nl/en/calls/open-access-books
+
+- name: Verifiable Privacy for Digital Health Twins
+  description: >
+    An open call from the Open Science Foundation funding research that lets a person
+    verify the privacy of their own personal health data across its lifecycle: storage,
+    computation, aggregation, and sharing. Open to researchers worldwide, with funding
+    of up to CHF 20,000 per application for projects of 6, 9, or 12 months starting
+    1 February 2027. Code, papers, and data must be openly licensed from the first commit.
+  deadline: Apply by 15 December 2026
+  link: https://opening.science/apply/health-twin-privacy-2026/
 
 - name: WUR Support Fund for Open Educational Resources
   description: >
