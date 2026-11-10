@@ -100,6 +100,24 @@ def load_events():
     return events
 
 
+def process_funding(calls, today):
+    """Sort funding calls by deadline and drop any that have passed.
+
+    Calls with a `date` are ordered soonest-first and hidden once their date is
+    in the past. Calls without a `date` (ongoing) always come last and are kept.
+    """
+    dated, ongoing = [], []
+    for call in calls:
+        if call.get("date"):
+            call["date"] = as_date(call["date"])
+            if call["date"] >= today:
+                dated.append(call)
+        else:
+            ongoing.append(call)
+    dated.sort(key=lambda c: c["date"])
+    return dated + ongoing
+
+
 def load_pages():
     pages = []
     for path in sorted((CONTENT / "pages").glob("*.md")):
@@ -163,6 +181,7 @@ def build():
     data = load_data()
     events = load_events()
     today = dt.date.today()
+    data["funding"] = process_funding(data.get("funding", []), today)
     upcoming = [e for e in events if e["date"] >= today]
     past = list(reversed([e for e in events if e["date"] < today]))
 

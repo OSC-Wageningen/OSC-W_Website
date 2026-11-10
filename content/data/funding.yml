@@ -1,6 +1,10 @@
-# Open funding calls shown on the Funding Opportunities page, in this order.
-# Ordered by deadline, soonest first; ongoing calls last.
-# Remove a call when it closes. description can use Markdown.
+# Funding calls shown on the Funding Opportunities page.
+# Add a `date:` (YYYY-MM-DD) for the deadline: the build sorts calls by it
+# (soonest first) and automatically drops any call whose date has passed.
+# Omit `date:` for calls with no fixed deadline ("ongoing"); these always
+# show last and are never dropped. `deadline:` is the free text displayed to
+# visitors, and can differ in wording. description can use Markdown. Order here
+# does not matter for dated calls; it only sets the order among ongoing calls.
 
 - name: 4TU The FAIR Data Fund
   description: >
@@ -10,6 +14,7 @@
     software, code, and other research outputs FAIR. We encourage researchers to seek
     funding for whichever research outputs they think would be most improved from
     being made more FAIR.
+  date: 2026-11-30
   deadline: Deadline November 30, 2026
   link: https://community.data.4tu.nl/the-fair-data-fund/
 
@@ -19,6 +24,7 @@
     study visit to a research institution abroad. This enables open science
     professionals to gain valuable knowledge and experience of best practices in the
     field of open science.
+  date: 2026-12-03
   deadline: Deadline 3 December 2026
   link: https://www.openscience.nl/en/calls/mobility-and-development-programme
 
@@ -29,6 +35,7 @@
     computation, aggregation, and sharing. Open to researchers worldwide, with funding
     of up to CHF 20,000 per application for projects of 6, 9, or 12 months starting
     1 February 2027. Code, papers, and data must be openly licensed from the first commit.
+  date: 2026-12-15
   deadline: Apply by 15 December 2026
   link: https://opening.science/apply/health-twin-privacy-2026/
 
@@ -37,6 +44,7 @@
     This funding round supports making research output open and FAIR in order to
     maximise the impact of research. The focus is on non-traditional research outputs,
     as well as for activities that demonstrably contribute to this objective.
+  date: 2027-02-23
   deadline: Closes 23 February 2027
   link: https://www.openscience.nl/en/calls/fair-research-outputs
 
