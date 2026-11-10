@@ -1,4 +1,5 @@
 # Open funding calls shown on the Funding Opportunities page, in this order.
+# Ordered by deadline, soonest first; ongoing calls last.
 # Remove a call when it closes. description can use Markdown.
 
 - name: 4TU The FAIR Data Fund
@@ -12,14 +13,6 @@
   deadline: Deadline November 30, 2026
   link: https://community.data.4tu.nl/the-fair-data-fund/
 
-- name: OSNL FAIR Research Outputs
-  description: >
-    This funding round supports making research output open and FAIR in order to
-    maximise the impact of research. The focus is on non-traditional research outputs,
-    as well as for activities that demonstrably contribute to this objective.
-  deadline: Closes 23 February 2027
-  link: https://www.openscience.nl/en/calls/fair-research-outputs
-
 - name: OSNL Mobility and Development Programme
   description: >
     Through this programme, open science professionals can apply for funding for a
@@ -28,14 +21,6 @@
     field of open science.
   deadline: Deadline 3 December 2026
   link: https://www.openscience.nl/en/calls/mobility-and-development-programme
-
-- name: NWO Open Access Books
-  description: >
-    Project leaders or co-applicants of awarded NWO research projects can apply for
-    funding of the costs of Open Access publishing of academic books that result from
-    NWO funding.
-  deadline: Ongoing call
-  link: https://www.nwo.nl/en/calls/open-access-books
 
 - name: Verifiable Privacy for Digital Health Twins
   description: >
@@ -46,6 +31,22 @@
     1 February 2027. Code, papers, and data must be openly licensed from the first commit.
   deadline: Apply by 15 December 2026
   link: https://opening.science/apply/health-twin-privacy-2026/
+
+- name: OSNL FAIR Research Outputs
+  description: >
+    This funding round supports making research output open and FAIR in order to
+    maximise the impact of research. The focus is on non-traditional research outputs,
+    as well as for activities that demonstrably contribute to this objective.
+  deadline: Closes 23 February 2027
+  link: https://www.openscience.nl/en/calls/fair-research-outputs
+
+- name: NWO Open Access Books
+  description: >
+    Project leaders or co-applicants of awarded NWO research projects can apply for
+    funding of the costs of Open Access publishing of academic books that result from
+    NWO funding.
+  deadline: Ongoing call
+  link: https://www.nwo.nl/en/calls/open-access-books
 
 - name: WUR Support Fund for Open Educational Resources
   description: >
