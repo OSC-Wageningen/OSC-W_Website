@@ -66,6 +66,8 @@ def format_date(value, style="long"):
         return str(d.day)
     if style == "month":
         return f"{d:%b}"
+    if style == "deadline":
+        return f"{d.day} {d:%B} {d.year}"
     return f"{d:%A} {d.day} {d:%B} {d.year}"
 
 

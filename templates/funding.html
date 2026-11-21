@@ -9,7 +9,8 @@
   <article class="card">
     <h3>{{ call.name }}</h3>
     {{ call.description | markdown | safe }}
-    {% if call.deadline %}<p class="deadline">{{ call.deadline }}</p>{% endif %}
+    {% if call.date %}<p class="deadline">Deadline: {{ call.date | date("deadline") }}</p>
+    {% elif call.deadline %}<p class="deadline">{{ call.deadline }}</p>{% endif %}
     <p><a href="{{ call.link }}">More information</a></p>
   </article>
   {% else %}
